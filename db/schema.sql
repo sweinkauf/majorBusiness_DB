@@ -3,7 +3,7 @@ CREATE DATABASE majorbusiness_db;
 
 USE majorbusiness_db;
 
-CREATE TABLE department (
+CREATE TABLE departments (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
     name VARCHAR(30) NOT NULL
 );
@@ -17,7 +17,7 @@ CREATE TABLE roles (
     REFERENCES department(id)
     ON DELETE SET NULL
 );
- CREATE TABLE employee (
+ CREATE TABLE employees (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,

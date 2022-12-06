@@ -1,0 +1,25 @@
+{
+  "name": "majorbusiness_db",
+  "version": "1.0.0",
+  "description": "Creating a user friendly command line app that allows for the user to view and manage an employee database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweinkauf/majorBusiness_DB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweinkauf/majorBusiness_DB/issues"
+  },
+  "homepage": "https://github.com/sweinkauf/majorBusiness_DB#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^9.1.4",
+    "mysql2": "^2.3.3"
+  }
+}
